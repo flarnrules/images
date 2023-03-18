@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.chicken {
+    position: relative;
+    display: inline-block;
+}
+
+.head, .beak, .eye, .body, .wing, .legs .leg {
+    position: absolute;
+}
+
+.head {
+    width: 50px;
+    height: 50px;
+    background-color: #ff0;
+    border-radius: 50%;
+    top: 0;
+    left: 25px;
+}
+
+.beak {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #f90;
+    top: 32px;
+    left: 55px;
+}
+
+.eye {
+    width: 6px;
+    height: 6px;
+    background-color: #000;
+    border-radius: 50%;
+    top: 15px;
+    left: 45px;
+}
+
+.body {
+    width: 60px;
+    height: 80px;
+    background-color: #ff0;
+    border-radius: 60px;
+    top: 50px;
+    left: 20px;
+}
+
+.wing {
+    width: 40px;
+    height: 30px;
+    background-color: #fc0;
+    border-radius: 50%;
+    top: 60px;
+    left: 25px;
+}
+
+.legs {
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+    top: 130px;
+    left: 25px;
+}
+
+.legs .leg {
+    width: 6px;
+    height: 40px;
+    background-color: #f90;
+    top: -20px;
+}
